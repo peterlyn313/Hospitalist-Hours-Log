@@ -7,21 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A529E93E327C1891A152AE02 /* Pods_Hospitalist_Hours_Log.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D45E224D6433048A330E3358 /* Pods_Hospitalist_Hours_Log.framework */; };
+		D0235AB41FEDA7D4001E8819 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D0235AB31FEDA7D4001E8819 /* GoogleService-Info.plist */; };
+		D0235AB61FEDA9E7001E8819 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0235AB51FEDA9E7001E8819 /* RegisterViewController.swift */; };
+		D0235ABB1FEDB26E001E8819 /* UserLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0235ABA1FEDB26E001E8819 /* UserLoginViewController.swift */; };
+		D0235ABD1FEDB3F5001E8819 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0235ABC1FEDB3F5001E8819 /* WelcomeViewController.swift */; };
+		D0235ABF1FEDB5F6001E8819 /* AdminLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0235ABE1FEDB5F6001E8819 /* AdminLoginViewController.swift */; };
+		D0235AC21FEDCB6C001E8819 /* LogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0235AC01FEDC639001E8819 /* LogViewController.swift */; };
 		D0EA5E9B1FE9505D0068834E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0EA5E9A1FE9505D0068834E /* AppDelegate.swift */; };
-		D0EA5E9D1FE9505D0068834E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0EA5E9C1FE9505D0068834E /* ViewController.swift */; };
 		D0EA5EA01FE9505D0068834E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0EA5E9E1FE9505D0068834E /* Main.storyboard */; };
 		D0EA5EA21FE9505D0068834E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0EA5EA11FE9505D0068834E /* Assets.xcassets */; };
 		D0EA5EA51FE9505D0068834E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0EA5EA31FE9505D0068834E /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		106C35705214C52FC89D2239 /* Pods-Hospitalist Hours Log.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hospitalist Hours Log.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Hospitalist Hours Log/Pods-Hospitalist Hours Log.debug.xcconfig"; sourceTree = "<group>"; };
+		939D91498D812B070ACCA372 /* Pods-Hospitalist Hours Log.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hospitalist Hours Log.release.xcconfig"; path = "Pods/Target Support Files/Pods-Hospitalist Hours Log/Pods-Hospitalist Hours Log.release.xcconfig"; sourceTree = "<group>"; };
+		D0235AB31FEDA7D4001E8819 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D0235AB51FEDA9E7001E8819 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		D0235ABA1FEDB26E001E8819 /* UserLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserLoginViewController.swift; sourceTree = "<group>"; };
+		D0235ABC1FEDB3F5001E8819 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		D0235ABE1FEDB5F6001E8819 /* AdminLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminLoginViewController.swift; sourceTree = "<group>"; };
+		D0235AC01FEDC639001E8819 /* LogViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogViewController.swift; sourceTree = "<group>"; };
 		D0EA5E971FE9505D0068834E /* Hospitalist Hours Log.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hospitalist Hours Log.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0EA5E9A1FE9505D0068834E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D0EA5E9C1FE9505D0068834E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D0EA5E9F1FE9505D0068834E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D0EA5EA11FE9505D0068834E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D0EA5EA41FE9505D0068834E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D0EA5EA61FE9505D0068834E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D45E224D6433048A330E3358 /* Pods_Hospitalist_Hours_Log.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hospitalist_Hours_Log.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +43,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A529E93E327C1891A152AE02 /* Pods_Hospitalist_Hours_Log.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7738D22A44F7EC4A5F17D2D6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D45E224D6433048A330E3358 /* Pods_Hospitalist_Hours_Log.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D0EA5E8E1FE9505D0068834E = {
 			isa = PBXGroup;
 			children = (
 				D0EA5E991FE9505D0068834E /* Hospitalist Hours Log */,
 				D0EA5E981FE9505D0068834E /* Products */,
+				E4EA92FE67D50C6B480C5F08 /* Pods */,
+				7738D22A44F7EC4A5F17D2D6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +80,27 @@
 			isa = PBXGroup;
 			children = (
 				D0EA5E9A1FE9505D0068834E /* AppDelegate.swift */,
-				D0EA5E9C1FE9505D0068834E /* ViewController.swift */,
 				D0EA5E9E1FE9505D0068834E /* Main.storyboard */,
+				D0235ABC1FEDB3F5001E8819 /* WelcomeViewController.swift */,
+				D0235ABA1FEDB26E001E8819 /* UserLoginViewController.swift */,
+				D0235AB51FEDA9E7001E8819 /* RegisterViewController.swift */,
+				D0235ABE1FEDB5F6001E8819 /* AdminLoginViewController.swift */,
+				D0235AC01FEDC639001E8819 /* LogViewController.swift */,
 				D0EA5EA11FE9505D0068834E /* Assets.xcassets */,
 				D0EA5EA31FE9505D0068834E /* LaunchScreen.storyboard */,
 				D0EA5EA61FE9505D0068834E /* Info.plist */,
+				D0235AB31FEDA7D4001E8819 /* GoogleService-Info.plist */,
 			);
 			path = "Hospitalist Hours Log";
+			sourceTree = "<group>";
+		};
+		E4EA92FE67D50C6B480C5F08 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				106C35705214C52FC89D2239 /* Pods-Hospitalist Hours Log.debug.xcconfig */,
+				939D91498D812B070ACCA372 /* Pods-Hospitalist Hours Log.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +110,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D0EA5EA91FE9505D0068834E /* Build configuration list for PBXNativeTarget "Hospitalist Hours Log" */;
 			buildPhases = (
+				A4249B0F839E4D00053A7681 /* [CP] Check Pods Manifest.lock */,
 				D0EA5E931FE9505D0068834E /* Sources */,
 				D0EA5E941FE9505D0068834E /* Frameworks */,
 				D0EA5E951FE9505D0068834E /* Resources */,
+				9F8A2A57081D63F8EDBBC6B8 /* [CP] Embed Pods Frameworks */,
+				FF710D43D4EFAEB76EAA52D4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -124,6 +166,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D0EA5EA51FE9505D0068834E /* LaunchScreen.storyboard in Resources */,
+				D0235AB41FEDA7D4001E8819 /* GoogleService-Info.plist in Resources */,
 				D0EA5EA21FE9505D0068834E /* Assets.xcassets in Resources */,
 				D0EA5EA01FE9505D0068834E /* Main.storyboard in Resources */,
 			);
@@ -131,12 +174,80 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		9F8A2A57081D63F8EDBBC6B8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Hospitalist Hours Log/Pods-Hospitalist Hours Log-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ChameleonFramework/ChameleonFramework.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ChameleonFramework.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Hospitalist Hours Log/Pods-Hospitalist Hours Log-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A4249B0F839E4D00053A7681 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Hospitalist Hours Log-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FF710D43D4EFAEB76EAA52D4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Hospitalist Hours Log/Pods-Hospitalist Hours Log-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D0EA5E931FE9505D0068834E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D0EA5E9D1FE9505D0068834E /* ViewController.swift in Sources */,
+				D0235ABB1FEDB26E001E8819 /* UserLoginViewController.swift in Sources */,
+				D0235ABD1FEDB3F5001E8819 /* WelcomeViewController.swift in Sources */,
+				D0235ABF1FEDB5F6001E8819 /* AdminLoginViewController.swift in Sources */,
+				D0235AC21FEDCB6C001E8819 /* LogViewController.swift in Sources */,
+				D0235AB61FEDA9E7001E8819 /* RegisterViewController.swift in Sources */,
 				D0EA5E9B1FE9505D0068834E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -272,9 +383,11 @@
 		};
 		D0EA5EAA1FE9505D0068834E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 106C35705214C52FC89D2239 /* Pods-Hospitalist Hours Log.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LJP69N3GJ9;
 				INFOPLIST_FILE = "Hospitalist Hours Log/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.peterlyn.Hospitalist-Hours-Log";
@@ -286,9 +399,11 @@
 		};
 		D0EA5EAB1FE9505D0068834E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 939D91498D812B070ACCA372 /* Pods-Hospitalist Hours Log.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LJP69N3GJ9;
 				INFOPLIST_FILE = "Hospitalist Hours Log/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.peterlyn.Hospitalist-Hours-Log";
